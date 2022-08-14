@@ -8,6 +8,6 @@ COPY package*.json ./
 
 COPY . /opt/app
 
-RUN yarn && yarn build
+RUN yarn && yarn add typescript @types/node && yarn build 
 
 CMD [ "yarn", "start" ]
