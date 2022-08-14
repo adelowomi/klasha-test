@@ -6,6 +6,8 @@ ENV NODE_ENV production
 
 COPY package*.json ./
 
+COPY next-sitemap.config.js ./
+
 COPY . /opt/app
 
 RUN yarn && yarn add typescript @types/node && yarn build 
