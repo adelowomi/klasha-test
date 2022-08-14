@@ -1,0 +1,67 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`SideNavItem should match snapshot 1`] = `
+<DocumentFragment>
+  <a
+    class="chakra-link css-1udx80"
+    href="/dashboard"
+  >
+    <div
+      class="css-dmwhn"
+      data-testid="side-nav-item-dashboard"
+    >
+      <div
+        class="css-70qvj9"
+      >
+        <svg
+          color="#FFFFFF"
+          fill="none"
+          height="24px"
+          stroke="currentColor"
+          stroke-linecap="round"
+          stroke-linejoin="round"
+          stroke-width="2"
+          style="color: rgb(255, 255, 255);"
+          viewBox="0 0 24 24"
+          width="24px"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <rect
+            height="7"
+            width="7"
+            x="3"
+            y="3"
+          />
+          <rect
+            height="7"
+            width="7"
+            x="14"
+            y="3"
+          />
+          <rect
+            height="7"
+            width="7"
+            x="14"
+            y="14"
+          />
+          <rect
+            height="7"
+            width="7"
+            x="3"
+            y="14"
+          />
+        </svg>
+        <div
+          class="css-1kw2fa0"
+        >
+          <span
+            class="chakra-text css-qr814n"
+          >
+            Dashboard
+          </span>
+        </div>
+      </div>
+    </div>
+  </a>
+</DocumentFragment>
+`;
