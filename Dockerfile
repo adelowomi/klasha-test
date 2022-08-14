@@ -10,7 +10,7 @@ COPY next-sitemap.config.js ./
 
 COPY . /opt/app
 
-RUN yarn && yarn add -D typescript @types/node && yarn add next-sitemap
+RUN yarn && yarn add typescript @types/node next-sitemap
 
 RUN yarn build 
 
