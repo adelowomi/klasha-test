@@ -3,6 +3,7 @@ import {
   Box,
   BoxProps,
   Button,
+  CloseButton,
   ComponentWithAs,
   Flex,
   Icon,
@@ -43,10 +44,11 @@ export const SideNav: React.FC<ISideNavProps> = ({
       {...rest}
     >
       <Box>
-        <Flex direction={"column"} pt={"12"} pl={"12"}>
+        <Flex direction={"row"} pt={"12"} pl={"12"} justifyContent={"space-between"}>
           <a href="/">
             <LogoComponent fill={"black"} />
           </a>
+          <CloseButton display={{ base: 'flex', md: 'none' }} onClick={disclosure.onClose} pr={12}/>
         </Flex>
         <Flex direction={"column"} mt={"10"} pl={"12"}>
           <Text fontWeight="bold" fontSize={"medium"} color="brand.100">
